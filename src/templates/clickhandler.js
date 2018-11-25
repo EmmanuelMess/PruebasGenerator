@@ -20,7 +20,9 @@ function onDownloadClick() {
 
 function getTemaIndex() {
     const urlParams = new URLSearchParams(window.location.search);
-    return parseInt(urlParams.get('temaIndex'));
+    const index = parseInt(urlParams.get('temaIndex'));
+
+    return index !== index? 0:index;
 }
 
 /**
