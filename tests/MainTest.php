@@ -33,8 +33,8 @@ class MainTest extends TestCase {
 			"descripcion" => "preguntauno",
 			"respuestas_correctas" => ["10", "200", "1000"],
 			"respuestas_incorrectas" => ["20", "30", "50"],
-			"ocultar_opcion_todas_las_anteriores" => false,
-			"ocultas_opcion_ninguna_de_las_anteriores" => false,
+			"ocultar_opcion_todas_las_anteriores" => true,
+			"ocultas_opcion_ninguna_de_las_anteriores" => true,
 			"texto_todas_las_anteriores" => "Todas",
 			"texto_ninguna_de_las_anteriores" => "Ninguna",
 			$isAllCorrect = false,
@@ -64,7 +64,7 @@ class MainTest extends TestCase {
 
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntados", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, true, "Todas", "Ninguna", false, false);
+		$protopregdos = new ProtoPregunta ("preguntados", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, false, "Todas", "Ninguna", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 
@@ -81,7 +81,7 @@ class MainTest extends TestCase {
 		);
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntatres", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, true, "", "", false, false);
+		$protopregdos = new ProtoPregunta ("preguntatres", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, false, "", "", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 
@@ -99,7 +99,7 @@ class MainTest extends TestCase {
 
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntacuatro", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, false, "", "", false, false);
+		$protopregdos = new ProtoPregunta ("preguntacuatro", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, true, "", "", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 
@@ -117,7 +117,7 @@ class MainTest extends TestCase {
 
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntacinco", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, true, "Todas", "Ninguna", false, false);
+		$protopregdos = new ProtoPregunta ("preguntacinco", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, false, "Todas", "Ninguna", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 
@@ -135,7 +135,7 @@ class MainTest extends TestCase {
 
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntaseis", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, false, "Todas", "", false, false);
+		$protopregdos = new ProtoPregunta ("preguntaseis", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, true, "Todas", "", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 
@@ -153,7 +153,7 @@ class MainTest extends TestCase {
 
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntasiete", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, false, "", "Ninguna", false, false);
+		$protopregdos = new ProtoPregunta ("preguntasiete", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, true, "", "Ninguna", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 
@@ -171,7 +171,7 @@ class MainTest extends TestCase {
 
 		$protopreguno = $objmain->processPregunta($pregunt);
 
-		$protopregdos = new ProtoPregunta ("preguntaocho", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], true, false, "Todas", "Ninguna", false, false);
+		$protopregdos = new ProtoPregunta ("preguntaocho", [(new ProtoRespuesta("10", true)), (new ProtoRespuesta("200", true)), (new ProtoRespuesta("1000", true)), (new ProtoRespuesta("20", false)), (new ProtoRespuesta("30", false)), (new ProtoRespuesta("50", false))], false, true, "Todas", "Ninguna", false, false);
 
 		$this->assertEquals($protopreguno, $protopregdos);
 	}

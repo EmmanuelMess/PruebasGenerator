@@ -66,9 +66,9 @@ class Main {
 	public static function processPregunta(array $pregunta): ProtoPregunta {
 		return (new Pipeline())
 			->pipe(function ($pregunta) {
-				$hasAllCorrect = ArrayUtils::checkOrDefault
+				$hasAllCorrect = !ArrayUtils::checkOrDefault
 				("ocultar_opcion_todas_las_anteriores", $pregunta, false);
-				$hasNoCorrect = ArrayUtils::checkOrDefault
+				$hasNoCorrect = !ArrayUtils::checkOrDefault
 				("ocultas_opcion_ninguna_de_las_anteriores", $pregunta, false);
 				$hasSpecialAll = ArrayUtils::checkOrDefault
 				("texto_todas_las_anteriores", $pregunta, NULL);
