@@ -61,7 +61,7 @@ class ParseFinal {
 			}
 
 			if($pregunta->HAS_ALL_CORRECT) {
-				$letter = chr(ord("A") + ++$j);
+				$letter = chr(ord("A") + $j++);
 				$respuestaText = "";
 
 				if($pregunta->HAS_SPECIAL_ALL != null) {
@@ -78,7 +78,7 @@ class ParseFinal {
 			}
 
 			if($pregunta->HAS_NO_CORRECT) {
-				$letter = chr(ord("A") + ++$j);
+				$letter = chr(ord("A") + $j);
 				$respuestaText = "";
 
 				if($pregunta->HAS_SPECIAL_NO_CORRECT != null) {

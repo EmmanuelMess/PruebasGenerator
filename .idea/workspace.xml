@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fdede05-130f-4f54-858c-8de3443768c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/clickhandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/clickhandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/prueba.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/prueba.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParseFinal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParseFinal.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,42 +19,43 @@
     <session id="1377467728">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="3" />
           <entry key="project.open.time.33" value="5" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
           <entry key="dist" value="2" />
-          <entry key="html" value="2" />
+          <entry key="html" value="3" />
           <entry key="ini" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="14" />
           <entry key="lock" value="3" />
-          <entry key="php" value="106" />
-          <entry key="twig" value="9" />
+          <entry key="php" value="107" />
+          <entry key="twig" value="10" />
           <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="17" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="106" />
+          <entry key="PHP" value="107" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Twig" value="9" />
+          <entry key="Twig" value="10" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -66,7 +66,7 @@
           <entry key="html" value="10" />
           <entry key="js" value="12" />
           <entry key="json" value="101" />
-          <entry key="php" value="7688" />
+          <entry key="php" value="7783" />
           <entry key="twig" value="668" />
         </counts>
       </usages-collector>
@@ -76,7 +76,7 @@
           <entry key="HTML" value="10" />
           <entry key="JSON" value="101" />
           <entry key="JavaScript" value="12" />
-          <entry key="PHP" value="7688" />
+          <entry key="PHP" value="7783" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Twig" value="668" />
         </counts>
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -117,26 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParseFinal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/templates/clickhandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/prueba.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="82" lean-forward="true" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+            <state relative-caret-position="1335">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
@@ -144,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+            <state relative-caret-position="320">
+              <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="85" selection-end-column="26" />
               <folding>
                 <element signature="e#36#82#0#PHP" expanded="true" />
               </folding>
@@ -156,22 +138,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/preprocess/ProtoPregunta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raw/preguntas.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="66" column="57" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/final/FinalPrueba.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -237,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/final/FinalPair.php" />
         <option value="$PROJECT_DIR$/src/final/FinalPrueba.php" />
         <option value="$PROJECT_DIR$/src/templates/css/style.css" />
-        <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/src/final/FinalRespuesta.php" />
         <option value="$PROJECT_DIR$/src/final/FinalPregunta.php" />
         <option value="$PROJECT_DIR$/src/preprocess/ProtoPregunta.php" />
@@ -249,10 +221,11 @@
         <option value="$PROJECT_DIR$/tests/ProtoPruebaTest.php" />
         <option value="$PROJECT_DIR$/.coveralls.yml" />
         <option value="$PROJECT_DIR$/php.xml.dist" />
-        <option value="$PROJECT_DIR$/src/ParseFinal.php" />
-        <option value="$PROJECT_DIR$/src/Main.php" />
         <option value="$PROJECT_DIR$/src/templates/prueba.html.twig" />
         <option value="$PROJECT_DIR$/src/templates/clickhandler.js" />
+        <option value="$PROJECT_DIR$/src/Main.php" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/ParseFinal.php" />
       </list>
     </option>
   </component>
@@ -322,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,6 +328,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,6 +421,7 @@
       <workItem from="1543014890157" duration="1323000" />
       <workItem from="1543085132893" duration="378000" />
       <workItem from="1543119792651" duration="9350000" />
+      <workItem from="1543194176449" duration="781000" />
     </task>
     <servers />
   </component>
@@ -484,10 +458,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61250000" />
+    <option name="totallyTimeSpent" value="62715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="-11" width="1362" height="780" extended-state="6" />
+    <frame x="-1361" y="-11" width="1362" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50222224" side_tool="true" weight="0.15367647" />
@@ -738,10 +712,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/final/FinalPregunta.php">
+    <entry file="file://$PROJECT_DIR$/src/templates/clickhandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="270">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw/preguntas.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -752,65 +733,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/final/FinalPrueba.php">
+    <entry file="file://$PROJECT_DIR$/src/final/FinalPregunta.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw/preguntas.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="66" column="57" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/preprocess/ProtoPregunta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-          <folding>
-            <element signature="e#36#82#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/form_initial.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParseFinal.php">
+    <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/prueba.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="82" lean-forward="true" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+        <state relative-caret-position="465">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/clickhandler.js">
+    <entry file="file://$PROJECT_DIR$/src/ParseFinal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="1335">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="e#36#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/preprocess/ProtoPregunta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final/FinalPrueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
