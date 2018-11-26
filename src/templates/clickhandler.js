@@ -10,12 +10,14 @@ function onFowardClick() {
     window.location.href = updateURLParameter(window.location.href, 'temaIndex', (temaIndex+1).toString());
 }
 
-function onDownloadClick() {
-    const keyUrl = window.location.href + "&isDownload=true";
-    window.open(keyUrl, '_blank', '');
-
+function onDownloadNormalClick() {
     const notKeyUrl = updateURLParameter(window.location.href, 'key', "0")  + "&isDownload=true";
     window.open(notKeyUrl, '_blank', '');
+}
+
+function onDownloadKeyClick() {
+    const keyUrl =  updateURLParameter(window.location.href, 'key', "1")  + "&isDownload=true";
+    window.open(keyUrl, '_blank', '');
 }
 
 function getTemaIndex() {

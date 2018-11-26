@@ -19,8 +19,12 @@
             </div>
 
             <div class="contentheader centertext">
-                <button type="button" class="btn btn-primary" onclick="onDownloadClick()">Descargar</button>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="onDownloadKeyClick()">Descargar resuelta</button>
+                    <button type="button" class="btn btn-primary" onclick="onDownloadNormalClick()">Descargar normal</button>
+                </div>
             </div>
+
             <div class="contentheader righttext">
                 {% if showFowardButton %}
                 <button type="button" class="btn btn-secondary" onclick="onFowardClick()">Siguiente</button>
